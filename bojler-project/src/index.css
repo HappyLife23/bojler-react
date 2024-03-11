@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightblue;
+}
+.pizzaGBG {
+  width: 300px;
+  height: 300px;
+  margin: 4rem auto;
+  border: 20px solid rgb(228, 108, 52);
+  border-radius: 50%;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    circle,
+    #fdc830,
+    #f37335
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    circle,
+    #fdc830,
+    #f37335
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titel {
+  margin-bottom: 1rem;
+}
+
+.pizza-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px hsl(0, 0%, 20%);
+}
+
+.ul-list {
+  line-height: 2rem;
+}
