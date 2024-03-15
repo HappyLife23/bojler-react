@@ -1,13 +1,14 @@
 
 import Pizza from "./Pizza"
 
-const Button = ({count, setCount, onClick}) => {
+const Button = ({ count, setCount, onClick }) => {
 
     return (
         <button className="btn" onClick={() => {
-          
+
             setCount((prevStat) => prevStat + 1)
             onClick()
+
 
         }}>Baka en pizza</button>
     );
